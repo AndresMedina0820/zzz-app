@@ -17,6 +17,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+h1 {
+  font-size: 48px;
+  text-wrap: pretty;
+  line-height: 3rem;
+}
+
 nav {
   font-family: "Inconsolata-Bold", monospace, system-ui, -apple-system;
 }
