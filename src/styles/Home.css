@@ -1,0 +1,35 @@
+article {
+  display: flex;
+  max-width: 75%;
+  margin: auto;
+  gap: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+article h1 {
+  font-size: 48px;
+  text-wrap: pretty;
+  line-height: 3rem;
+}
+
+article p {
+  width: 75%;
+  align-self: center;
+  text-wrap: balance;
+}
+
+article .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50dvh;
+}
+
+@media (max-width: 600px) {
+  p {
+    width: 100%;
+    align-self: auto;
+  }
+}
