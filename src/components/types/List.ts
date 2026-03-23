@@ -4,6 +4,7 @@ export interface ListProps {
 }
 
 export interface Options {
+  id: number;
   text: string;
   highlightedText: string;
 }
